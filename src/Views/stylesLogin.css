@@ -1,0 +1,277 @@
+.entire-page-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.Caixa-Login {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 70%;
+    height: 70%;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+
+}
+.Img-Login-Div {
+    background-color: white;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img-Login {
+    width: 90%;
+}
+
+.Tela-Login {
+    background-color: rgba(8, 99, 205, 0.79);
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Texto-Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.Titulo-Login {
+    color: white;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+
+.SubTitulo-Login {
+    color: white;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    margin-bottom: 12.5%;
+}
+
+.Inputs-Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.input-login {
+    width: 100%;
+    height: 80px;
+    margin: 3% 0;
+    border-radius: 48px;
+    border-color: transparent;
+    font-size: 24px;
+    padding-left: 5%;
+
+}
+.enviar-login {
+    background-color: #F36B53;
+    border-radius: 40px;
+    border-color: transparent;
+    width: 300px;
+    height: 80px;
+    margin: 3% 0;
+    font-size: 24px;
+    color: white
+}
+.Cadastro-Login {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+@media (min-width: 601px) and (max-width:1023px) {
+    .Caixa-Login {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+    }
+    .Img-Login-Div {
+        width: auto;
+        height: 45%;
+    }
+    .Img-Login {
+        width: auto;
+        height: 100%;
+    }
+    .Tela-Login {
+        width: 100%;
+        height: 55%;
+    }
+
+    .Titulo-Login {
+        font-size: 42px;
+    }
+    .SubTitulo-Login {
+        font-size: 20px;
+        margin-bottom: 7%;
+    }
+    .input-login {
+        width: 100%;
+        height: 42px;
+        margin: 3% 0;
+        font-size: 22px;
+    }
+    .enviar-login {
+        width: 240px;
+        height: 42px;
+        margin: 3% 0;
+        font-size: 22px;
+    }
+    .Cadastro-Login {
+        font-size: 22px;
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 351px) and (max-width:600px){
+    .Caixa-Login {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+    }
+    .Img-Login-Div {
+        width: auto;
+        height: 30%;
+    }
+    .Img-Login {
+        width: auto;
+        height: 100%;
+    }
+    .Tela-Login {
+        width: 100%;
+        height: 70%;
+    }
+
+    .Titulo-Login {
+        font-size: 38px;
+    }
+    .SubTitulo-Login {
+        font-size: 20px;
+        margin-bottom: 7%;
+    }
+    .input-login {
+        width: 100%;
+        height: 38px;
+        margin: 3% 0;
+        font-size: 20px;
+    }
+    .enviar-login {
+        width: 100%;
+        height: 38px;
+        margin: 5% 0;
+        font-size: 20px;
+    }
+    .Cadastro-Login {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width:350px){
+    .Caixa-Login {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+    }
+    .Img-Login-Div {
+        width: auto;
+        height: 30%;
+    }
+    .Img-Login {
+        width: 70%;
+        height: 100%;
+    }
+    .Tela-Login {
+        width: 100%;
+        height: 70%;
+    }
+
+    .Titulo-Login {
+        font-size: 42px;
+    }
+    .SubTitulo-Login {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+    .input-login {
+        width: 100%;
+        height: 30px;
+        margin: 3% 0;
+        font-size: 20px;
+    }
+    .enviar-login {
+        width: 100%;
+        height: 30px;
+        margin: 3% 0;
+        font-size: 20px;
+    }
+    .Cadastro-Login {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-height: 960px) {
+
+    .Caixa-Login {
+        width: 90%;
+        height: 90%;
+    }
+    
+    .Titulo-Login {
+        font-size: 48px;
+    }
+    
+    .SubTitulo-Login {
+        font-size: 20px;
+        margin: 2% 0;
+    }
+    
+    .input-login {
+        height: 48px;
+        margin: 2% 0;
+        font-size: 18px;
+    
+    }
+    .enviar-login {
+        width: 240px;
+        height: 48px;
+        font-size: 18px;
+        margin: 2% 0;
+    }
+    .Cadastro-Login {
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+    
+}
+
