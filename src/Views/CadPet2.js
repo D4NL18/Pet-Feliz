@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import {useState} from 'react';
 import {  Link  } from 'react-router-dom';
 import ImgCadastroPets from "../imgs/ImgCadastroPets.jpg"
@@ -8,12 +8,13 @@ import '../Views/stylesCadastroPets.css'
 export default function Login() {
 
     const [historico, setHistorico] = useState('')
-    const [img, setImg] = React.useState("")
+    const [name, setName] = useState("");
+    const [selectedFile, setSelectedFile] = useState(null);
 
     function send() {
         swal({
             title: "Login Realizado!",
-            text: `Email: ${historico}\nSenha: ${img}`,
+            text: `Email: ${historico}`,
             icon: "success",
           }); 
           
@@ -21,10 +22,7 @@ export default function Login() {
 
     function handleInputChangeHistorico(event){
         setHistorico(event.target.value);
-    }
-    function onChangePicture(event) {
-        setImg([...img, event.target.files[0]]);
-    };
+    } 
 
     function handleFormSubmit(event){ 
         event.preventDefault(); 
@@ -45,15 +43,10 @@ export default function Login() {
                         </div>
                         <form className="Inputs-Cadastro-Pet" onSubmit={handleFormSubmit}>
                             <textarea className="input-Cadastro-Pet-Desc" type="text" id="Historico" name="Historico" onChange={handleInputChangeHistorico} placeholder="Historico" required wrap rows="1" style={{resize: 'none', fontFamily: 'Arial, Helvetica, sans-serif'}}/>
-                            {(img) ? 
                             <div className="input-Cadastro-Pet-Img">
-                                <label for='Img' className="input-Cadastro-Pet-Img-label" ><img src={img} style={{width: '100%', height: '100%', display: 'flex'}} alt="Foto"/></label>
-                                <input type="file" id="Img" name="Img" onChange={onChangePicture} accept='.png, .jpeg, .jpg' style={{display: 'none'}}/>
-                            </div> : 
-                            <div className="input-Cadastro-Pet-Img" >
-                                <label for='Img' className="input-Cadastro-Pet-Img-label" ><p style={{resize: 'none', fontFamily: 'Arial, Helvetica, sans-serif'}}>Foto</p></label>
-                                <input type="file" id="Img" name="Img" onChange={onChangePicture} placeholder="Foto" accept='.png, .jpeg, .jpg' style={{display: 'none'}}/>
-                            </div>}
+                                <label for='Img' className="input-Cadastro-Pet-Img-label" ><img src={selectedFile} style={{width: '100%', height: '100%', display: 'flex'}} alt="Foto"/></label>
+                                <input type="file" id="Img" name="Img" onChange={(e) => setSelectedFile(e.target.files[0])} accept='.png, .jpeg, .jpg' style={{display: 'none'}}/>
+                            </div>
                             <Link to="/ListaPets" style={{width: '100%', display: 'flex', justifyContent: 'center', textDecoration: 'none'}}><input className="enviar-Cadastro-Pet" type="submit" value="Continuar"/> </Link>
                             <a href="/Cadastro-Pet1" className="CadastroPet-ListaPets">Voltar</a>
                         </form>
