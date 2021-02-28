@@ -19,8 +19,8 @@ export default function Login() {
                             <h2 className="SubTitulo-Login">Bem Vindo!</h2>
                         </div>
                         <form className="Inputs-Login" >
-                            <input className="input-login" type="email" id="Email" name="Email"  placeholder="Email" required rows="1"/>
-                            <input className="input-login" type="password" id="Senha" name="Senha" placeholder="Senha" required rows="1"/>
+                            <input className="input-login" type="email" id="Email" name="Email"  placeholder="Email" required rows="1" style={{resize: 'none', fontFamily: 'Arial, Helvetica, sans-serif'}}/>
+                            <input className="input-login" type="password" id="Senha" name="Senha" placeholder="Senha" required rows="1" style={{resize: 'none', fontFamily: 'Arial, Helvetica, sans-serif'}}/>
                             <Link to="/ListaPets" style={{width: '100%', display: 'flex', justifyContent: 'center', textDecoration: 'none'}}><input className="enviar-login" type="submit" value="Login"/> </Link>
                             <a href="/Cadastro1" className="Cadastro-Login">Cadastre-se</a>
                         </form>

@@ -1,0 +1,332 @@
+.entire-page-cadastro-pet {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Caixa-Cadastro-Pet {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.Img-Cadastro-Div-Pet {
+    background-color: white;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Img-Cadastro-Pet {
+    width: 90%;
+}
+
+.Tela-Cadastro-Pet {
+    background-color: rgba(8, 99, 205, 0.79);
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Texto-Cadastro-Pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.Titulo-Cadastro-Pet {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+.SubTitulo-Cadastro-Pet {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    margin-bottom: 5%;
+}
+
+.Inputs-Cadastro-Pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.input-Cadastro-Pet {
+    width: 100%;
+    height: 80px;
+    margin: 5% 0;
+    border-radius: 48px;
+    border-color: transparent;
+    font-size: 24px;
+    padding: 0 5%;
+}
+.input-Cadastro-Pet-Desc {
+    width: 100%;
+    height: 80px;
+    margin: 5% 0;
+    padding-top: 40px !important;
+    border-radius: 48px;
+    border-color: transparent;
+    font-size: 24px;
+    padding: 0 5%;
+
+}
+.input-Cadastro-Pet-Img {
+    display: flex;
+    width: 60%;
+    background-color: white;
+    height: 200px;
+    align-items: center;
+    border-radius: 48px;
+    border-color: transparent;
+}
+
+.input-Cadastro-Pet-Img-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgba(100, 100, 100, 1);
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.enviar-Cadastro-Pet {
+    background-color: #F36B53;
+    border-radius: 40px;
+    border-color: transparent;
+    width: 300px;
+    height: 80px;
+    margin: 5% 0;
+    font-size: 24px;
+    color: white
+}
+.CadastroPet-ListaPets {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+@media (min-width: 601px) and (max-width:1023px) {
+
+    .Caixa-Cadastro-Pet {
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .Img-Cadastro-Div-Pet {
+        width: auto;
+        height: 35%;
+    }
+    
+    .Img-Cadastro-Pet {
+        width: auto;
+        height: 90%;
+    }
+    
+    .Tela-Cadastro-Pet {
+        width: 100%;
+        height: 65%;
+    }
+    
+    .Texto-Cadastro-Pet {
+        width: 60%;
+    }
+    
+    .Titulo-Cadastro-Pet {
+        font-size: 48px;
+
+    }
+    .SubTitulo-Cadastro-Pet {
+        font-size: 20px;
+        margin-bottom: 7%;
+    }
+    
+    .input-Cadastro-Pet {
+        height: 48px;
+        margin: 3% 0;
+        font-size: 20px;
+    
+    }
+    .enviar-Cadastro-Pet {
+        width: 300px;
+        height: 48px;
+        margin: 3% 0;
+        font-size: 20px;
+        color: white
+    }
+    .CadastroPet-ListaPets {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+}
+@media (min-width: 351px) and (max-width: 600px) {
+
+    .Caixa-Cadastro-Pet {
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .Img-Cadastro-Div-Pet {
+        width: auto;
+        height: 35%;
+    }
+    
+    .Img-Cadastro-Pet {
+        width: auto;
+        height: 80%;
+    }
+    
+    .Tela-Cadastro-Pet {
+        width: 100%;
+        height: 65%;
+    }
+    
+    .Texto-Cadastro-Pet {
+        width: 70%;
+    }
+    
+    .Titulo-Cadastro-Pet {
+        font-size: 48px;
+
+    }
+    .SubTitulo-Cadastro-Pet {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    .Inputs-Cadastro-Pet {
+        width: 70%;
+    }
+    
+    .input-Cadastro-Pet {
+        height: 48px;
+        margin: 3% 0;
+        font-size: 20px;
+    
+    }
+    .enviar-Cadastro-Pet {
+        width: 100%;
+        height: 48px;
+        margin: 3% 0;
+        font-size: 20px;
+        color: white
+    }
+    .CadastroPet-ListaPets {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+
+}
+@media (max-width: 350px) {
+    .Caixa-Cadastro-Pet {
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .Img-Cadastro-Div-Pet {
+        width: auto;
+        height: 35%;
+    }
+    
+    .Img-Cadastro-Pet {
+        width: auto;
+        height: 60%;
+    }
+    
+    .Tela-Cadastro-Pet {
+        width: 100%;
+        height: 65%;
+    }
+    
+    .Texto-Cadastro-Pet {
+        width: 70%;
+    }
+    
+    .Titulo-Cadastro-Pet {
+        font-size: 40px !important;
+        margin: 0% 0;
+    }
+    .SubTitulo-Cadastro-Pet {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+
+    .Inputs-Cadastro-Pet {
+        width: 70%;
+    }
+    
+    .input-Cadastro-Pet {
+        height: 30px !important;
+        margin: 3% 0;
+        font-size: 16px !important;
+    
+    }
+    .enviar-Cadastro-Pet {
+        width: 100%;
+        height: 30px !important;
+        margin: 3% 0;
+        font-size: 20px;
+    }
+    .CadastroPet-ListaPets {
+        font-size: 20px;
+    }
+}
+
+@media (max-height: 880px) {
+  
+    .Titulo-Cadastro-Pet {
+        font-size: 42px;
+    }
+    .SubTitulo-Cadastro-Pet {
+        font-size: 18px;
+    }
+    
+    .input-Cadastro-Pet {
+        height: 40px;
+        margin: 3% 0;
+        font-size: 20px;
+    }
+    .enviar-Cadastro-Pet {
+        width: 240px;
+        height: 40px;
+        margin: 3% 0;
+        font-size: 18px;
+    }
+    .CadastroPet-ListaPets {
+        font-size: 18px;
+    }
+}
