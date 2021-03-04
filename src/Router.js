@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Login from "./Views/Login"
-import Cadastro1 from "./Views/Cadastro1"
-import Cadastro2 from "./Views/Cadastro2"
-import ListaPets from "./Views/ListaPets"
-import DescPet from "./Views/DescPet"
-import CadPet1 from "./Views/CadPet1"
-import CadPet2 from "./Views/CadPet2"
+import Login from "./Views//Login/Login"
+import Cadastro1 from "./Views//Cadastro/Cadastro1"
+import Cadastro2 from "./Views//Cadastro/Cadastro2"
+import ListaPets from "./Views//ListaPets/ListaPets"
+import DescPet from "./Views//InfoPet/DescPet"
+import CadPet1 from "./Views//CadastroPet/CadPet1"
+import CadPet2 from "./Views//CadastroPet/CadPet2"
 
 function Router() {
     return (

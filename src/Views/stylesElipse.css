@@ -1,0 +1,43 @@
+.elipse1 {
+    position: fixed;
+    z-index: 0;
+    width: 378.36px;
+    height: 218.68px;
+    left: -100px;
+    top: 0;
+}
+.elipse2 {
+    position: fixed;
+    z-index: 1;
+    width: 300.61px;
+    height: 200.03px;
+    right: -30px;
+    top: 0px;
+    
+}
+.elipse3 {
+    position: fixed;
+    z-index: 3;
+    width: 433.9px;
+    height: 418.28px;
+    left: -100px;
+    top: 500px;
+    
+}
+.elipse4 {
+    position: fixed;
+    z-index: 1;
+    width: 30%;
+    height: 218.68px;
+    right: -67.83px;
+    top: 697px;
+    
+}
+.elipse5 {
+    position: fixed;
+    z-index: 0;
+    width: 30%;
+    height: 177.03px;
+    right: 50%;
+    bottom: -100px;   
+}
