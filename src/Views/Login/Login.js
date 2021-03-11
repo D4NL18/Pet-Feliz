@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import {  Link  } from 'react-router-dom';
 import ImgLogin from "../../imgs/imgLogin.jpg"
 import './stylesLogin.css'
 import elipse1 from '../../imgs/Ellipse1.svg'
