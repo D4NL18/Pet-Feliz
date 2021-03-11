@@ -85,6 +85,7 @@
     border-color: transparent;
     font-size: 24px;
     padding-left: 5%;
+    outline: none;
 
 }
 .enviar-login {
@@ -95,7 +96,8 @@
     height: 80px;
     margin: 3% 0;
     font-size: 24px;
-    color: white
+    color: white;
+    outline: none;
 }
 .Cadastro-Login {
     text-decoration: none;

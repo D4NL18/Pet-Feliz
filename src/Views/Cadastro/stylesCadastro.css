@@ -53,7 +53,7 @@
 
 .Titulo-Cadastro {
     color: white;
-    font-family: Roboto;
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: bold;
     font-size: 70px;
@@ -62,7 +62,7 @@
 }
 .SubTitulo-Cadastro {
     color: white;
-    font-family: Roboto;
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -85,6 +85,7 @@
     border-color: transparent;
     font-size: 24px;
     padding: 0 5%;
+    outline: none;
 
 }
 .enviar-Cadastro {
@@ -95,7 +96,8 @@
     height: 80px;
     margin: 5% 0;
     font-size: 24px;
-    color: white
+    color: white;
+    outline: none;
 }
 .Login-Cadastro {
     text-decoration: none;

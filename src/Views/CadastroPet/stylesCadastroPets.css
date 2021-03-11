@@ -53,7 +53,7 @@
 
 .Titulo-Cadastro-Pet {
     color: white;
-    font-family: Roboto;
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
@@ -62,7 +62,7 @@
 }
 .SubTitulo-Cadastro-Pet {
     color: white;
-    font-family: Roboto;
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -85,6 +85,7 @@
     border-color: transparent;
     font-size: 24px;
     padding: 0 5%;
+    outline: none;
 }
 .input-Cadastro-Pet-Desc {
     width: 100%;
@@ -95,7 +96,7 @@
     border-color: transparent;
     font-size: 24px;
     padding: 0 5%;
-
+    outline: none;
 }
 .input-Cadastro-Pet-Img {
     display: flex;
@@ -127,7 +128,8 @@
     height: 80px;
     margin: 5% 0;
     font-size: 24px;
-    color: white
+    color: white;
+    outline: none;
 }
 .CadastroPet-ListaPets {
     text-decoration: none;
