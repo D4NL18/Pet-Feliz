@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./Views//Login/Login"
 import Cadastro1 from "./Views//Cadastro/Cadastro1"
 import Cadastro2 from "./Views//Cadastro/Cadastro2"
@@ -13,8 +13,7 @@ function Router() {
       <div>
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Login}><Redirect to="/Login"></Redirect></Route>
-            <Route exact path="/Login" component={Login}></Route>
+            <Route exact path="/" component={Login}></Route>
             <Route exact path="/Cadastro1" component={Cadastro1}></Route>
             <Route exact path="/Cadastro2" component={Cadastro2}></Route>
             <Route exact path="/ListaPets" component={ListaPets}></Route>
