@@ -14,7 +14,7 @@ function Router() {
     <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Login}><Redirect to="/Login"></Redirect></Route>
-            <Route exact path="/Login1" component={Login}></Route>
+            <Route exact path="/Login" component={Login}></Route>
             <Route exact path="/Cadastro1" component={Cadastro1}></Route>
             <Route exact path="/Cadastro2" component={Cadastro2}></Route>
             <Route exact path="/ListaPets" component={ListaPets}></Route>
