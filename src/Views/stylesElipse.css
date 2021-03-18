@@ -39,5 +39,23 @@
     width: 30%;
     height: 177.03px;
     right: 50%;
-    bottom: -100px;   
+    bottom: -100px;  
+     
+}
+
+@media (max-width: 850px) and (min-width: 450px) {
+    .elipse5 {
+        visibility: hidden;
+    }
+}
+@media (max-width: 450px){
+    .elipse1 {
+        visibility: hidden;
+    }
+    .elipse5 {
+        visibility: hidden;
+    }
+    .elipse4 {
+        visibility: hidden;
+    }
 }

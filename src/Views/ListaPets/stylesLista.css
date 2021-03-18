@@ -66,6 +66,12 @@
     width: 100%;
     height: auto;
     margin-top: 2%;
+
+}
+.botao-pet-lista:hover {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 .img-pet-lista {
